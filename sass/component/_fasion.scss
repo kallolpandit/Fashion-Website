@@ -1,0 +1,63 @@
+@import'../variables/variables';
+@import'../mixins/mixins';
+
+#fashion {
+    padding: 100px 0 150px;
+
+    .fasion_text {
+        position: relative;
+        margin-top: 150px;
+
+        h2 {
+            @include common_h2
+        }
+
+        p {
+            @include common_p;
+            margin-top: 50px;
+        }
+
+        .fasion_counter {
+            background: #FAE3B6;
+            border-radius: 20px;
+            padding: 20px 60px;
+            display: flex;
+            margin-top: 135px;
+            position: absolute;
+            top: 310px;
+            left: -190px;
+            z-index: -1;
+
+            .items {
+                display: flex;
+                text-align: center;
+                padding: 30px 20px;
+
+
+                p {
+                    @include common_p;
+                    font-size: 28px;
+                    font-weight: 500;
+                    margin: 0 10px;
+
+                    span {
+                        display: block;
+                        font-family: $podkova;
+                        font-size: 64px;
+                        font-weight: 700;
+                        padding-bottom: 28px;
+                    }
+                }
+
+                .border {
+                    width: 5px;
+                    height: 143px;
+                    background: #000000;
+                    margin: 0 15px;
+                }
+
+
+            }
+        }
+    }
+}

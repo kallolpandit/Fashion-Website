@@ -1,0 +1,17 @@
+@import'../variables/variables';
+
+@mixin common_h2(){
+    font-family: $secondary_font;
+    font-size: 64px;
+    font-weight: 700;
+    color: $praimery_color;
+    width: 437px;
+}
+@mixin common_p(){
+    font-family: $praimery_font;
+    font-size: 24px;
+    font-weight: 600;
+    color: $praimery_color;
+    width: 100%;
+    line-height: 33px;
+}

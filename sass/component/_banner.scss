@@ -1,0 +1,38 @@
+@import'../variables/variables';
+@import'../mixins/mixins';
+
+#banner {
+    padding: 100px 0 185px;
+    background: #FAE3B6;
+
+    h1 {
+        @include common_h2;
+        font-family: $praimery_font;
+        line-height: 96px;
+        font-weight: 600;
+    }
+
+    p {
+        @include common_p;
+        font-weight: 400;
+        font-size: 22px;
+        margin-top: 38px;
+    }
+
+    a {
+        padding: 25px 90px;
+        background: $praimery_color;
+        font-weight: 600;
+        font-size: 24px;
+        color: #fff;
+        border-radius: 10px;
+        margin-top: 75px;
+        transition: all linear .3s;
+
+        &:hover {
+            background: transparent;
+            color: $praimery_color;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+    }
+}

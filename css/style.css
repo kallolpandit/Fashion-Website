@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.menu {
+  padding: 45px 0 20px;
+  background: #FAE3B6;
+}
+.menu .logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #000000;
+}
+
+#banner {
+  padding: 100px 0 185px;
+  background: #FAE3B6;
+}
+#banner h1 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #000000;
+  width: 437px;
+  font-family: "Poppins", sans-serif;
+  line-height: 96px;
+  font-weight: 600;
+}
+#banner p {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  width: 100%;
+  line-height: 33px;
+  font-weight: 400;
+  font-size: 22px;
+  margin-top: 38px;
+}
+#banner a {
+  padding: 25px 90px;
+  background: #000000;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 75px;
+  transition: all linear 0.3s;
+}
+#banner a:hover {
+  background: transparent;
+  color: #000000;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#collection {
+  padding: 210px 0 110px;
+}
+#collection h2 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #000000;
+  width: 437px;
+  margin: 0 auto;
+}
+#collection p {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  width: 100%;
+  line-height: 33px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 15px;
+}
+#collection .coll_items {
+  position: relative;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+#collection .coll_items a {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 36px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  padding: 10px 108px;
+  border-radius: 20px;
+}
+
+#fashion {
+  padding: 100px 0 150px;
+}
+#fashion .fasion_text {
+  position: relative;
+  margin-top: 150px;
+}
+#fashion .fasion_text h2 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #000000;
+  width: 437px;
+}
+#fashion .fasion_text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  width: 100%;
+  line-height: 33px;
+  margin-top: 50px;
+}
+#fashion .fasion_text .fasion_counter {
+  background: #FAE3B6;
+  border-radius: 20px;
+  padding: 20px 60px;
+  display: flex;
+  margin-top: 135px;
+  position: absolute;
+  top: 310px;
+  left: -190px;
+  z-index: -1;
+}
+#fashion .fasion_text .fasion_counter .items {
+  display: flex;
+  text-align: center;
+  padding: 30px 20px;
+}
+#fashion .fasion_text .fasion_counter .items p {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  width: 100%;
+  line-height: 33px;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+#fashion .fasion_text .fasion_counter .items p span {
+  display: block;
+  font-family: "Podkova", serif;
+  font-size: 64px;
+  font-weight: 700;
+  padding-bottom: 28px;
+}
+#fashion .fasion_text .fasion_counter .items .border {
+  width: 5px;
+  height: 143px;
+  background: #000000;
+  margin: 0 15px;
+}
+
+#product {
+  margin-top: 130px;
+  padding: 35px 0 135px;
+  background: #CFA485;
+}
+#product .product_text {
+  margin-top: 20px;
+}
+#product .product_text h2 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #000000;
+  width: 437px;
+  color: #fff;
+}
+#product .product_text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  width: 100%;
+  line-height: 33px;
+  color: #fff;
+  margin: 40px 0 60px;
+}
+#product .product_text a {
+  padding: 25px 100px;
+  background: #000000;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 10px;
+  transition: all linear 0.3s;
+}
+#product .product_text a:hover {
+  background: transparent;
+  color: #000000;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#product .product_details {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+#product .product_details .product_items .items_text {
+  background: #FFFFFF;
+  padding: 5px 0;
+}
+#product .product_details .product_items .items_text ul {
+  display: flex;
+  gap: 8px;
+}
+#product .product_details .product_items .items_text ul li {
+  color: #FFAF37;
+}
+#product .product_details .product_items .items_text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  width: 100%;
+  line-height: 33px;
+  margin-left: 30px;
+}
+#product .product_details .product_items .items_text .money {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: rgba(196, 196, 196, 0.7176470588);
+}
+#product .product_details .product_items .items_text .money span {
+  color: #000000;
+  margin-left: 25px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,77 @@
+@import'../variables/variables';
+@import'../mixins/mixins';
+
+#product {
+    margin-top: 130px;
+    padding: 35px 0 135px;
+    background: #CFA485;
+
+    .product_text {
+        margin-top: 20px;
+
+        h2 {
+            @include common_h2;
+            color: #fff;
+        }
+
+        p {
+            @include common_p;
+            color: #fff;
+            margin: 40px 0 60px;
+        }
+
+        a {
+            padding: 25px 100px;
+            background: $praimery_color;
+            font-weight: 600;
+            font-size: 24px;
+            color: #fff;
+            border-radius: 10px;
+            transition: all linear .3s;
+
+            &:hover {
+                background: transparent;
+                color: $praimery_color;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+        }
+    }
+
+    .product_details {
+        display: flex;
+        gap: 30px;
+        margin-top: 20px;
+
+        .product_items {
+            .items_text {
+                background: #FFFFFF;
+                padding: 5px 0;
+
+                ul {
+                    display: flex;
+                    gap: 8px;
+
+                    li {
+                        color: #FFAF37;
+                    }
+                }
+
+                p {
+                    @include common_p;
+                    margin-left: 30px;
+                }
+
+                .money {
+                    font-family: $praimery_font;
+                    font-weight: 400;
+                    color: #c4c4c4b7;
+
+                    span {
+                        color: $praimery_color;
+                        margin-left: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
