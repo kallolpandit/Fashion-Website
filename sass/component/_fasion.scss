@@ -20,7 +20,7 @@
         .fasion_counter {
             background: #FAE3B6;
             border-radius: 20px;
-            padding: 20px 60px;
+            padding: 10px 60px;
             display: flex;
             margin-top: 135px;
             position: absolute;
@@ -32,7 +32,8 @@
                 display: flex;
                 text-align: center;
                 padding: 30px 20px;
-
+                align-items: center;
+                border-right: 2px solid #000000;
 
                 p {
                     @include common_p;
@@ -46,16 +47,13 @@
                         font-size: 64px;
                         font-weight: 700;
                         padding-bottom: 28px;
+
                     }
                 }
 
-                .border {
-                    width: 5px;
-                    height: 143px;
-                    background: #000000;
-                    margin: 0 15px;
+                &:nth-last-child(1) {
+                    border-right: none;
                 }
-
 
             }
         }
