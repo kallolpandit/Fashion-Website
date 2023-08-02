@@ -8,4 +8,39 @@
         font-weight: 600;
         color: #000000;
     }
+    ul{
+        margin: 0 auto;
+        display: flex;
+        gap: 35px;
+        li{
+            a{
+                font-family: "Poppins", sans-serif;
+                font-size: 24px;
+                font-weight: 600;
+                color: #000000 !important;
+                transition: all linear .3s;
+                &:hover{
+                    color: #FDBB57 !important;
+                }
+            }
+        }
+    }
+    .menu_button{
+        display: flex;
+        gap: 5px;
+        a{
+            padding: 10px 15px;
+            font-family: "Poppins", sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            color: #000000;
+            background: #FDBB57;
+            border-radius: 10px;
+            transition: all linear .3s;
+            &:hover{
+                background: transparent;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+        }
+    }
   }
