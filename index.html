@@ -1,71 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sass</title>
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
 
-<body>
+  <body>
     <nav class="navbar navbar-expand-lg menu">
-        <div class="container">
-            <a class="navbar-brand logo" href="#">Fresh</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Men</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Women</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Kids</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Collection</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Trends</a>
-                    </li>
-
-                </ul>
-                <div class="menu_button">
-                    <a href="#">Login</a>
-                    <a href="#">Sign up</a>
-                </div>
-
-            </div>
+      <div class="container">
+        <a class="navbar-brand logo" href="#">Fresh</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Men</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Women</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Kids</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Collection</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Trends</a>
+            </li>
+          </ul>
+          <div class="menu_button">
+            <a href="#">Login</a>
+            <a href="#">Sign up</a>
+          </div>
         </div>
+      </div>
     </nav>
     <!-- =========================
         Banner Part Start
     ============================== -->
     <section id="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h1>Find The Best Fashion Style
-                        For You</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu, odio pellentesque mattis pulvinar
-                        felis. At arcu ornare rhoncus, elementum non viverra. </p>
-                    <a href="#">SHOP NOW</a>
-
-                </div>
-                <div class="col-lg-6">
-                    <img src="./images/banner_img.png" class="img-fluid w-100" alt="banner_img">
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Find The Best Fashion Style For You</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu,
+              odio pellentesque mattis pulvinar felis. At arcu ornare rhoncus,
+              elementum non viverra.
+            </p>
+            <a href="#">SHOP NOW</a>
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="./images/banner_img.png"
+              class="img-fluid w-100"
+              alt="banner_img"
+            />
+          </div>
         </div>
+      </div>
     </section>
     <!-- =========================
         Banner Part End
@@ -75,42 +89,48 @@
         Collection Part Start
     ============================== -->
     <section id="collection">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>New Collection</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="coll_items">
-                            <img src="./images/sweater.png" class="img-fluid w-100" alt="sweater">
-                            <a href="#">Sweater</a>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="coll_items">
-                            <img src="./images/jeans.png" class="img-fluid w-100" alt="jeans">
-                            <a href="#">Jeans</a>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="coll_items">
-
-                            <img src="./images/baskets.png" class="img-fluid w-100 " alt="baskets">
-
-                            <a href="#">Baskets</a>
-
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>New Collection</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="coll_items">
+                <img
+                  src="./images/sweater.png"
+                  class="img-fluid w-100 h-100"
+                  alt="sweater"
+                />
+                <a href="#">Sweater</a>
+              </div>
             </div>
-        </div>
-    </section>
+            <div class="col-lg-4">
+              <div class="coll_items">
+                <img
+                  src="./images/jeans.png"
+                  class="img-fluid w-100 h-100"
+                  alt="jeans"
+                />
+                <a href="#">Jeans</a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="coll_items">
+                <img
+                  src="./images/baskets.png"
+                  class="img-fluid w-100 h-100"
+                  alt="baskets"
+                />
 
+                <a href="#">Baskets</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- =========================
         Collection Part End
@@ -120,35 +140,40 @@
         Fasion Part Start
     ============================== -->
     <section id="fashion">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="fasion_img">
-                        <img src="./images/fashion.png" class="img-fluid w-100" alt="fashion">
-                    </div>
-
-                </div>
-                <div class="col-lg-6">
-                    <div class="fasion_text">
-                        <h2>Best Fashion
-                            Since 2010</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu, odio pellentesque mattis
-                            pulvinar felis. At arcu ornare rhoncus, elementum non viverra. </p>
-                        <div class="fasion_counter">
-                            <div class="items">
-                                <p><span>2010</span> Founded</p>
-                            </div>
-                            <div class="items">
-                                <p><span class="counter">5000</span> Product Sold</p>
-                            </div>
-                            <div class="items">
-                                <p><span class="counter">4500</span> Founded</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="fasion_img">
+              <img
+                src="./images/fashion.png"
+                class="img-fluid w-100"
+                alt="fashion"
+              />
             </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="fasion_text">
+              <h2>Best Fashion Since 2010</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu,
+                odio pellentesque mattis pulvinar felis. At arcu ornare rhoncus,
+                elementum non viverra.
+              </p>
+              <div class="fasion_counter">
+                <div class="items">
+                  <p><span>2010</span> Founded</p>
+                </div>
+                <div class="items">
+                  <p><span class="counter">5000</span> Product Sold</p>
+                </div>
+                <div class="items">
+                  <p><span class="counter">4500</span> Founded</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- =========================
         Fasion Part End
@@ -157,67 +182,72 @@
         Product Part Start
     ============================== -->
     <section id="product">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="product_text">
-                        <h2>Best Seller Product</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac neque, velit tortor quam at donec
-                            etiam bibendum sagittis. Libero tempor, lacus amet, scelerisque neque mauris odio risus nec.
-                            Nisl, parturient at morbi morbi sit arcu. At integer maecenas tortor non lectus.</p>
-                        <a href="#">SEE MORE</a>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="product_details">
-                        <div class="product_items">
-                            <img src="./images/product_1.png" class="img-fluid w-100" alt="product_1">
-                            <div class="items_text">
-                                <ul>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                </ul>
-                                <p>Sweater Shirt</p>
-                                <p class="money">$45.99 <span>$35.99</span></p>
-                            </div>
-
-                        </div>
-                        <div class="product_items">
-                            <img src="./images/product_2.png" class="img-fluid w-100" alt="product_2">
-                            <div class="items_text">
-                                <ul>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                </ul>
-                                <p>Pants fashion</p>
-                                <p class="money">$55 <span>$44.99</span></p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="product_text">
+              <h2>Best Seller Product</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac
+                neque, velit tortor quam at donec etiam bibendum sagittis.
+                Libero tempor, lacus amet, scelerisque neque mauris odio risus
+                nec. Nisl, parturient at morbi morbi sit arcu. At integer
+                maecenas tortor non lectus.
+              </p>
+              <a href="#">SEE MORE</a>
             </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="product_details">
+              <div class="product_items">
+                <img
+                  src="./images/product_1.png"
+                  class="img-fluid w-100"
+                  alt="product_1"
+                />
+                <div class="items_text">
+                  <ul>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                  <p>Sweater Shirt</p>
+                  <p class="money">$45.99 <span>$35.99</span></p>
+                </div>
+              </div>
+              <div class="product_items">
+                <img
+                  src="./images/product_2.png"
+                  class="img-fluid w-100"
+                  alt="product_2"
+                />
+                <div class="items_text">
+                  <ul>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                  <p>Pants fashion</p>
+                  <p class="money">$55 <span>$44.99</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- =========================
         Product Part End
     ============================== -->
-
 
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
-
-</body>
-
+  </body>
 </html>

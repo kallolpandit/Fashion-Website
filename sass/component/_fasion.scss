@@ -1,61 +1,62 @@
-@import'../variables/variables';
-@import'../mixins/mixins';
+@import "../variables/variables";
+@import "../mixins/mixins";
 
 #fashion {
-    padding: 100px 0 150px;
+  padding: 100px 0 150px;
 
-    .fasion_text {
-        position: relative;
-        margin-top: 150px;
+  .fasion_text {
+    position: relative;
+    margin-top: 150px;
 
-        h2 {
-            @include common_h2
-        }
+    h2 {
+      @include common_h2;
+    }
+
+    p {
+      @include common_p;
+      margin-top: 50px;
+    }
+
+    .fasion_counter {
+      background: #fae3b6;
+      border-radius: 20px;
+      //   padding: 10px 60px;
+      width: 745px;
+      display: flex;
+      margin-top: 135px;
+      position: absolute;
+      top: 310px;
+      left: -190px;
+      z-index: -1;
+
+      .items {
+        display: flex;
+        text-align: center;
+        width: 30%;
+        padding: 30px 50px;
+        align-items: center;
+        border-right: 2px solid #000000;
 
         p {
-            @include common_p;
-            margin-top: 50px;
+          @include common_p;
+          font-size: 28px;
+          font-weight: 500;
+          margin: 0 20px;
+
+          span {
+            display: block;
+            font-family: $podkova;
+            font-size: 64px;
+            font-weight: 700;
+            padding-bottom: 28px;
+          }
         }
 
-        .fasion_counter {
-            background: #FAE3B6;
-            border-radius: 20px;
-            padding: 10px 60px;
-            display: flex;
-            margin-top: 135px;
-            position: absolute;
-            top: 310px;
-            left: -190px;
-            z-index: -1;
-
-            .items {
-                display: flex;
-                text-align: center;
-                padding: 30px 20px;
-                align-items: center;
-                border-right: 2px solid #000000;
-
-                p {
-                    @include common_p;
-                    font-size: 28px;
-                    font-weight: 500;
-                    margin: 0 10px;
-
-                    span {
-                        display: block;
-                        font-family: $podkova;
-                        font-size: 64px;
-                        font-weight: 700;
-                        padding-bottom: 28px;
-
-                    }
-                }
-
-                &:nth-last-child(1) {
-                    border-right: none;
-                }
-
-            }
+        &:nth-last-child(1) {
+          border-right: none;
+          padding: 0;
         }
+      }
     }
+  }
 }

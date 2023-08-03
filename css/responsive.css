@@ -1,0 +1,50 @@
+@media (min-width: 1400px) {
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+@media (max-width: 575.98px) {
+  /* =========Navbar Part Start=========== */
+  .menu .logo {
+    font-size: 40px;
+  }
+  .menu ul {
+    align-items: center;
+    padding: 10px 0;
+  }
+  .menu ul li a {
+    font-size: 18px;
+  }
+  .menu .menu_button {
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .menu .menu_button a {
+    font-size: 18px;
+  }
+  /* =========Navbar Part End=========== */
+
+  /* =========Navbar Part Start=========== */
+  /* =========Navbar Part End=========== */
+
+  /* =========Navbar Part Start=========== */
+  /* =========Navbar Part End=========== */
+
+  /* =========Navbar Part Start=========== */
+  /* =========Navbar Part End=========== */
+
+  /* =========Navbar Part Start=========== */
+  /* =========Navbar Part End=========== */
+
+  /* =========Navbar Part Start=========== */
+  /* =========Navbar Part End=========== */
+
+  /* =========Navbar Part Start=========== */
+  /* =========Navbar Part End=========== */
+}

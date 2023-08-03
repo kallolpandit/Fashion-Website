@@ -1,44 +1,44 @@
-@import'../variables/variables';
-@import'../mixins/mixins';
+@import "../variables/variables";
+@import "../mixins/mixins";
 
 #collection {
-    padding: 210px 0 110px;
+  padding: 210px 0 110px;
 
-    h2 {
-        @include common_h2;
-        margin: 0 auto;
+  h2 {
+    @include common_h2;
+    margin: 0 auto;
+  }
+
+  p {
+    @include common_p;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .coll_items {
+    position: relative;
+    margin-right: 30px;
+    margin-top: 40px;
+    height: 100%;
+
+    a {
+      font-family: $praimery_font;
+      font-size: 24px;
+      font-weight: 400;
+      color: $praimery_color;
+      line-height: 36px;
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #fff;
+      padding: 10px 108px;
+      border-radius: 20px;
     }
 
-    p {
-        @include common_p;
-        font-weight: 400;
-        text-align: center;
-        margin-top: 15px;
-    }
-
-    .coll_items {
-        position: relative;
-        margin-right: 30px;
-        margin-top: 40px;
-
-        a {
-            font-family: $praimery_font;
-            font-size: 24px;
-            font-weight: 400;
-            color: $praimery_color;
-            line-height: 36px;
-            position: absolute;
-            top: 80%;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #fff;
-            padding: 10px 108px;
-            border-radius: 20px;
-
-        }
-
-        // span{
-        //     height: 402px !important;
-        // }
-    }
+    // span{
+    //     height: 402px !important;
+    // }
+  }
 }
